@@ -7,24 +7,24 @@ Note that colab links will not be accesible to non-team members.
 ##### Assignment3 colab link: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NvQH-ElZp7WMZesYloWm6jAYseW3r06Z)
 ##### Assignment4 colab link: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QvWDKWYFFZ2JguEkcdUoPerZ2UBhSRtD?usp=sharing)
 
-
+## Questions
 ### Assignment 1
 
-##### 1. 
-- (a).  Write python code for plotting the following activation functions for the input x in the range of -20 to 20. 
+##### Q.1. Write python code for
+- (a). Plotting the following activation functions for the input x in the range of -20 to 20. 
 	>- Sigmoid 
 	>- TanH 
 	>- Softsign 
 	>- ReLU 
 	>- Softmax
 
-- (b). Write python code for the derivative of the following activation functions and their plots for the input x in the range of -20 to 20.
+- (b). The derivative of the following activation functions and their plots for the input x in the range of -20 to 20.
 	>- Sigmoid 
 	>- TanH 
 	>- Softsign 
 	>- ReLU 
 
-##### 2. Assume we have a 2-input neuron and has the following parameters: w = [1, 1] ; b=2 .Write a python code for calculating the feed-forward output of neural networks by using following activation functions for input x=[4, 5]. 
+##### Q.2. Assume we have a 2-input neuron and has the following parameters: w = [1, 1] ; b=2 .Write a python code for calculating the feed-forward output of neural networks by using following activation functions for input x=[4, 5]. 
 >- Sigmoid 
 >- TanH 
 >- Softsign 
@@ -33,7 +33,7 @@ Note that colab links will not be accesible to non-team members.
 functions using Bar chart plot 
 >- verify each result by analytical method
 
-##### 3. Write python code to compute the following Regression loss value for the given true output and predicted output by network:
+##### Q.3. Write python code to compute the following Regression loss value for the given true output and predicted output by network:
 
 `# y_true = [11, 20,19,17,10,24,23] ## Target or actual Value `
 
@@ -46,7 +46,7 @@ functions using Bar chart plot
 > - Square Epsilon Hinge Loss 
 > - verify each loss value by analytical method 
 
-##### 4. Write python code to compute the values of following Binary classification functions for the given true output and predicted output by network:
+##### Q.4. Write python code to compute the values of following Binary classification functions for the given true output and predicted output by network:
 
 `y_pred = [0.99, 0.11, 0.11, 0.99, 0.11, 0.11, 0.99, 0.99, 0.99, 0.11, 0.99, 0.99, 0.11, 0.99, 0.99] ## Predicted value by ANN model `
 
@@ -58,13 +58,13 @@ functions using Bar chart plot
 > - Dice loss 
 > - verify each loss value by analytical method
 
-##### 5. Let us consider the given data points (X, Y): (1, 1), (2,1), (3,2), (4,2), (5,4) and the equation of the line passing through origin Y=0.7*X - 0.1. 
+##### Q.5. Let us consider the given data points (X, Y): (1, 1), (2,1), (3,2), (4,2), (5,4) and the equation of the line passing through origin Y=0.7*X - 0.1. 
 > 1. Plot the graph between X and Y using Python coding 
 > 2. Calculate the predicted output using above mentioned line equation using Python coding and verify the results with analytical method. 
 > 3. Calculate the MSE value using Python coding and verify the value with the analytical method. 
 > 4. Plot the regression line with Python coding 
 
-##### 6. The neural network shown in Fig.1 has the following hyper parameters and input: Choose random weights of the neuron and bias=0, learning rate =0.01 and inputs to the neuron and target values are as follows.
+##### Q.6. The neural network shown in Fig.1 has the following hyper parameters and input: Choose random weights of the neuron and bias=0, learning rate =0.01 and inputs to the neuron and target values are as follows.
 
 |X1| X2 |Y(target) |
 |---|---|---|
@@ -77,9 +77,10 @@ functions using Bar chart plot
 
 > Write a python code for calculating the output of neural network using Gradient Descent algorithm
 
+---
 ### Assignment 2
 
-##### Q.1.Write python code from scratch for simple Linear Regression problem, the following training data are given. 
+##### Q.1. Write python code from scratch for simple Linear Regression problem, the following training data are given. 
 `
 X = [2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6] 
 Y = [5.1, 6.1, 6.9, 7.8, 9.2, 9.9, 11.5, 12, 12.8] `
@@ -109,7 +110,7 @@ values are as follows.
 2. Plot comparative loss curve 
 3. repeat (1) and Adam optimization algorithm
 
-##### Q3. A group of 20 students studied 0 to 6 hours for the exam. Some passed and others failed. Results are given below 
+##### Q.3. A group of 20 students studied 0 to 6 hours for the exam. Some passed and others failed. Results are given below 
 
 | Student | Hours studied - x | Result (0 – fail, 1 – pass) - y | 
 | --- | --- | --- | 
@@ -192,9 +193,10 @@ using multinomial logistic regression.
 - (b)repeat part (a) Use Stochastic gradient descent algorithm to learn model 
 - (c) repeat part (a) with use of Adam Optimization algorithm to learn model
 
+---
 ### Assignment 3
 
-##### Q. 1. Build a ANN model from scratch for predicting best housing selling prices in Boston using three features (i.e. “RM: average number of rooms per dwelling; LSTAT: percentage of population considered lower status: PTRATIO: pupil-teacher ratio by town”) of Boston dataset (Use Sklearn Dataset) by using Stochastic Gradient Descent algorithm for the loss functions: 
+##### Q.1. Build a ANN model from scratch for predicting best housing selling prices in Boston using three features (i.e. “RM: average number of rooms per dwelling; LSTAT: percentage of population considered lower status: PTRATIO: pupil-teacher ratio by town”) of Boston dataset (Use Sklearn Dataset) by using Stochastic Gradient Descent algorithm for the loss functions: 
 - (a) Mean Square Error 
 - (b) Huber Loss 
 - (c) Squared Epsilon Hinge Loss 
@@ -202,7 +204,7 @@ using multinomial logistic regression.
 - (ii) Print comparison of Boston housing selling prices among above mentioned loss functions using bar chart plot and which loss function is providing better housing selling prices among others.
 - (iii) Implement above ANN model with Keras Library and verify the above results.
 
-##### Q. 2. Build a ANN model from to recognize breast cancer from Breast Dataset (Use Sklearn Dataset). Use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the parameters of the ANN model for loss functions 
+##### Q.2. Build a ANN model from to recognize breast cancer from Breast Dataset (Use Sklearn Dataset). Use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the parameters of the ANN model for loss functions 
 - (a) Binary cross entropy 
 - (b) Dice Loss 
 - (i) Plot comparative loss curve for at least 200 epochs.
@@ -218,7 +220,7 @@ using multinomial logistic regression.
 - (iii) Repeat part (i) to (ii) using Adam gradient descent algorithm
 - (iv) Implement above ANN model with Keras Library and verify the above results. 
 
-##### Q. 4. Build a ANN model from scratch to recognize Iris-setosa, Iris -virginica and Iris-versicolor from the Iris Dataset ((Use Sklearn Dataset) which contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor. For implementation, use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01and random parameters of the ANN model for the Softmax loss function 
+##### Q.4. Build a ANN model from scratch to recognize Iris-setosa, Iris -virginica and Iris-versicolor from the Iris Dataset ((Use Sklearn Dataset) which contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor. For implementation, use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01and random parameters of the ANN model for the Softmax loss function 
 - (i)Visualize data by boxplot of Sepal Length & Sepal width and Petal Length and width for three IRIS
 species. 
 - (ii) Plot comparative loss curve for at least 200 epochs.
@@ -228,13 +230,14 @@ species.
 - (vi) Repeat part (ii) to (v) using Adam gradient descent algorithm
 - (vii) Implement above ANN model with Keras Library and verify the above results. 
 
-##### Q. 5. Build a ANN model from scratch to recognize human emotion using Facial emotion recognition dataset (FER2013) (https://github.com/gitshanks/fer2013). For implementation, use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the ANN model for the Softmax loss function 
+##### Q.5. Build a ANN model from scratch to recognize human emotion using Facial emotion recognition dataset (FER2013) (https://github.com/gitshanks/fer2013). For implementation, use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the ANN model for the Softmax loss function 
 - (i)Visualize Facial emotion recognition dataset (FER2013. 
 - (ii) Plot comparative loss curve for at least 200 epochs.
 - (iii)Print confusion matrix, calculate classification metrics such as precision, recall, f1-score and accuracy and ROUC curve
 - (iv) Repeat part (ii) to (iii) using Adam gradient descent algorithm
 - (v) Implement above ANN model with Keras Library and verify the above result
 
+---
 ### Assignment 4
 
 ##### Q.1.
@@ -254,7 +257,7 @@ species.
     - (a)Write python from scratch for 2D Spatial Separbale convolution between input image(lena.jpg) and Gausian filter = np.array([1,4,6,4,1],[4,16,24,16,4],[6,24,36,24,6],[4,16,24,16,4],[1,4,6,4,1])/256 
     - (b) Compute number of multiplications and parameters required for2D Spatial Separbale convolution 
 	
-##### Q. 2. Build a CNN(LeNet5) model from scratch to recognize handwritten digit from the optical handwritten digit dataset(Use Sklearn Dataset and split dataset into training dataset (80%) and testing dataset (20%) ). Use a Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model for 
+##### Q.2. Build a CNN(LeNet5) model from scratch to recognize handwritten digit from the optical handwritten digit dataset(Use Sklearn Dataset and split dataset into training dataset (80%) and testing dataset (20%) ). Use a Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model for 
 - (a) Softmax loss function 
 - (b) Focal loss function.
     - (i) Plot a comparative loss curve for at least 200 epochs. 
@@ -267,32 +270,34 @@ species.
 - (ii) Print confusion matrix, calculate classification metrics such as precision, recall, f1-score and accuracy on test datsetand ROC curve for each loss function. 
 - (iii) Implement above CNN model with Keras/Tensorflow/Pytorch Library and verify the above results.
 
-##### Q. 4. Build a CNNmodel from scratch to recognize human emotion using Facial emotionrecognition dataset (FER2013) (https://github.com/gitshanks/fer2013)(split dataset into training dataset (80%) and testing dataset (20%) ). For implementation, use a Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model forthe Softmax loss function 
+##### Q.4. Build a CNNmodel from scratch to recognize human emotion using Facial emotionrecognition dataset (FER2013) (https://github.com/gitshanks/fer2013)(split dataset into training dataset (80%) and testing dataset (20%) ). For implementation, use a Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model forthe Softmax loss function 
 - (i)Visualize Facial emotion recognition dataset (FER2013). 
 - (ii) Plot a comparative loss curve for at least 200 epochs. 
 - (iii)Print confusion matrix, calculate classification metrics such as precision, recall, f1-score and accuracy on test dataset and ROC curve 
 - (iv) Implement above CNN model withKeras/Tensorflow/Pytorch Library and verify the above results.
 
+---
 ### Assignment 5
 
-##### Q. 1. Build a  1D CNN model from scratch to recognize human activity using HAR dataset  (https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones) (split dataset into training dataset (80%) and  testing dataset (20%) ). For implementation, use a Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model for Focal loss function
+##### Q.1. Build a  1D CNN model from scratch to recognize human activity using HAR dataset  (https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones) (split dataset into training dataset (80%) and  testing dataset (20%) ). For implementation, use a Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model for Focal loss function
 - (i)Visualize HAR dataset
 - (ii) Plot a comparative loss curve for at least 200 epochs.
 - (iii)Print confusion matrix, calculate classification metrics such as precision, recall, f1-score and accuracy on test dataset and ROC curve
 - (iv)  Implement above 1D CNN model with Keras Library and verify the above results. 
 
-##### Q2. Python Implementation  of LSTM  from scratch  for   Binary to  Octal  conversion. 
+##### Q.2. Python Implementation  of LSTM  from scratch  for   Binary to  Octal  conversion. 
 
 ##### Q.3. Implement A CNN-RNN (LSTM)Framework  using  (Keras/Tensorflow/Pytorch) for CropYield Prediction (reference  paper, and dataset attached and other related  dataset is available at https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) . For implementation, use a Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model for  RMSE as l loss function
 - (i) Plot a comparative loss curve for at least 100 epochs.
 - (ii) Compare  for Soybean  and Corn  yield prediction performance (RMSE and Correlation Coefﬁcient)  for years 2016, 2017,and 2018 of 1D CNN, RNN(LSTM), and CNN- RNN(LSTM)
 
-##### Q4. Python Implementation  of GRU  from scratch  for   Binary to Deceimal conversion. 
+##### Q.4. Python Implementation  of GRU  from scratch  for   Binary to Deceimal conversion. 
 
-### Q. 5. Build a CNN(AleNet)model  (using Keras/Tensorflow/Pytorch)  to recognize breast cancer from Breast Dataset (Use Sklearn Dataset and  split dataset into training dataset (80%) and  testing dataset (20%) ). Use an Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the parameters of the  CNNmodel for Focal loss function.
+##### Q.5. Build a CNN(AleNet)model  (using Keras/Tensorflow/Pytorch)  to recognize breast cancer from Breast Dataset (Use Sklearn Dataset and  split dataset into training dataset (80%) and  testing dataset (20%) ). Use an Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the parameters of the  CNNmodel for Focal loss function.
 - (i) Plot a comparative loss curve for at least 200 epochs.
 - (ii) Print confusion matrix, calculate classification metrics such as precision, recall, f1-score and accuracy on test datset and ROC curve for each loss function.
 
+---
 ### Assignment 6
 
 ##### Q.1. Implement CNN(VGG16) model using Keras/Tensorflow library for Steel Defect Detection from dataset (https://www.kaggle.com/c/severstal-steel-defect-detection/data). For implementation, split dataset into training dataset (80%) and testing dataset (20%) ). Use a Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model for Binary cross entropy loss function. For better training performance, you can use batch-normalization and dropout if necessary.
@@ -315,4 +320,5 @@ species.
 - (a)Write python from scratch for 2D Depthwise Separbale convolution between input image(lena.jpg) and depthwise and pointwise filters are as follows and also compute number of multiplications and parameters required for 2D Depthwise Separbale convolutions depthwise filter array = np.array([[[1, 2, 1], [2, 4, 2], [1, 2, 1]], [[1, 2, 1], [2, 4, 2], [1, 2, 1]], [[1, 2, 1], [2, 4, 2], [1, 2, 1]]])/16 pointwise filter array = np.array([[1], [1], [1]])/512 
 - (b) Write python from scratch for 2D Atrous/Dilated cnvolution between input image(lena.jpg) and filter which is given below with rate 3: filter= np.array([[1, 2, 1],[2, 4, 2], [1, 2, 1]])/16
 
+---
 
