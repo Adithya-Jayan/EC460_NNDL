@@ -194,7 +194,7 @@ using multinomial logistic regression.
 
 ### Assignment 3
 
-#### Q. 1. Build a ANN model from scratch for predicting best housing selling prices in Boston using three features (i.e. “RM: average number of rooms per dwelling; LSTAT: percentage of population considered lower status: PTRATIO: pupil-teacher ratio by town”) of Boston dataset (Use Sklearn Dataset) by using Stochastic Gradient Descent algorithm for the loss functions: 
+##### Q. 1. Build a ANN model from scratch for predicting best housing selling prices in Boston using three features (i.e. “RM: average number of rooms per dwelling; LSTAT: percentage of population considered lower status: PTRATIO: pupil-teacher ratio by town”) of Boston dataset (Use Sklearn Dataset) by using Stochastic Gradient Descent algorithm for the loss functions: 
 - (a) Mean Square Error 
 - (b) Huber Loss 
 - (c) Squared Epsilon Hinge Loss 
@@ -202,7 +202,7 @@ using multinomial logistic regression.
 - (ii) Print comparison of Boston housing selling prices among above mentioned loss functions using bar chart plot and which loss function is providing better housing selling prices among others.
 - (iii) Implement above ANN model with Keras Library and verify the above results.
 
-#### Q. 2. Build a ANN model from to recognize breast cancer from Breast Dataset (Use Sklearn Dataset). Use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the parameters of the ANN model for loss functions 
+##### Q. 2. Build a ANN model from to recognize breast cancer from Breast Dataset (Use Sklearn Dataset). Use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the parameters of the ANN model for loss functions 
 - (a) Binary cross entropy 
 - (b) Dice Loss 
 - (i) Plot comparative loss curve for at least 200 epochs.
@@ -210,7 +210,7 @@ using multinomial logistic regression.
 - (iii) Repeat part (ii) to (iii) using Adam gradient descent algorithm
 - (iv) Implement above ANN model with Keras Library and verify the above results. 
 
-#### Q.3. Build a ANN model from scratch to recognize diabetes-from pima-indians-diabetes-database (i.e. https://github.com/duonghuuphuc/keras/tree/master/dataset ). Use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the ANN model for loss functions 
+##### Q.3. Build a ANN model from scratch to recognize diabetes-from pima-indians-diabetes-database (i.e. https://github.com/duonghuuphuc/keras/tree/master/dataset ). Use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the ANN model for loss functions 
 - (a) Binary cross entropy 
 - (b) Dice Loss 
 - (i) Visualize input dataset and Plot comparative loss curve for at least 200 epochs.
@@ -218,7 +218,7 @@ using multinomial logistic regression.
 - (iii) Repeat part (i) to (ii) using Adam gradient descent algorithm
 - (iv) Implement above ANN model with Keras Library and verify the above results. 
 
-#### Q. 4. Build a ANN model from scratch to recognize Iris-setosa, Iris -virginica and Iris-versicolor from the Iris Dataset ((Use Sklearn Dataset) which contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor. For implementation, use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01and random parameters of the ANN model for the Softmax loss function 
+##### Q. 4. Build a ANN model from scratch to recognize Iris-setosa, Iris -virginica and Iris-versicolor from the Iris Dataset ((Use Sklearn Dataset) which contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor. For implementation, use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01and random parameters of the ANN model for the Softmax loss function 
 - (i)Visualize data by boxplot of Sepal Length & Sepal width and Petal Length and width for three IRIS
 species. 
 - (ii) Plot comparative loss curve for at least 200 epochs.
@@ -228,7 +228,7 @@ species.
 - (vi) Repeat part (ii) to (v) using Adam gradient descent algorithm
 - (vii) Implement above ANN model with Keras Library and verify the above results. 
 
-#### Q. 5. Build a ANN model from scratch to recognize human emotion using Facial emotion recognition dataset (FER2013) (https://github.com/gitshanks/fer2013). For implementation, use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the ANN model for the Softmax loss function 
+##### Q. 5. Build a ANN model from scratch to recognize human emotion using Facial emotion recognition dataset (FER2013) (https://github.com/gitshanks/fer2013). For implementation, use Stochastic gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the ANN model for the Softmax loss function 
 - (i)Visualize Facial emotion recognition dataset (FER2013. 
 - (ii) Plot comparative loss curve for at least 200 epochs.
 - (iii)Print confusion matrix, calculate classification metrics such as precision, recall, f1-score and accuracy and ROUC curve
@@ -295,23 +295,23 @@ species.
 
 ### Assignment 6
 
-#### Q.1. Implement CNN(VGG16) model using Keras/Tensorflow library for Steel Defect Detection from dataset (https://www.kaggle.com/c/severstal-steel-defect-detection/data). For implementation, split dataset into training dataset (80%) and testing dataset (20%) ). Use a Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model for Binary cross entropy loss function. For better training performance, you can use batch-normalization and dropout if necessary.
+##### Q.1. Implement CNN(VGG16) model using Keras/Tensorflow library for Steel Defect Detection from dataset (https://www.kaggle.com/c/severstal-steel-defect-detection/data). For implementation, split dataset into training dataset (80%) and testing dataset (20%) ). Use a Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model for Binary cross entropy loss function. For better training performance, you can use batch-normalization and dropout if necessary.
 - (i)Plot a comparative loss curve for at least 50 epochs 
 - (ii) Print confusion matrix, calculate classification metrics such as precision, recall, F1-score, IoU and accuracy on test dataset and ROC curve. 
 
-#### Q.2. Implement CNN(VGG16) model for Predicting Invasive Ductal Carcinoma (IDC) in Breast Cancer Histology Images (https://www.kaggle.com/paultimothymooney/breast-histopathology-images). For implementation, split dataset into training dataset (80%) and testing dataset (20%) ). Use an Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the parameters of the CNN model for Focal loss function. For better training performance, you can use batch-normalization and dropout if necessary. 
+##### Q.2. Implement CNN(VGG16) model for Predicting Invasive Ductal Carcinoma (IDC) in Breast Cancer Histology Images (https://www.kaggle.com/paultimothymooney/breast-histopathology-images). For implementation, split dataset into training dataset (80%) and testing dataset (20%) ). Use an Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the parameters of the CNN model for Focal loss function. For better training performance, you can use batch-normalization and dropout if necessary. 
 - (i) Plot a comparative loss curve for at least 50 epochs. 
 - (ii)Print confusion matrix, calculate classification metrics such as precision, recall, F1-score, IoU and accuracy on test dataset and ROC curve. 
 
-#### Q.3. Implement FCN8 model using Keras/Tensorflow library for Building footprint segmentation from aerial remote sensing images (https://github.com/menvuthy/building-footprint-dataset). For implementation, split dataset into training dataset (80%) and testing dataset (20%) ). Use a Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model for Dice Loss function. For better training performance, you can use batch-normalization and dropout if necessary. 
+##### Q.3. Implement FCN8 model using Keras/Tensorflow library for Building footprint segmentation from aerial remote sensing images (https://github.com/menvuthy/building-footprint-dataset). For implementation, split dataset into training dataset (80%) and testing dataset (20%) ). Use a Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the CNN model for Dice Loss function. For better training performance, you can use batch-normalization and dropout if necessary. 
 - (i) Plot a comparative loss curve for at least 50 epochs. 
 - (ii) Print confusion matrix, calculate overall as well as classwise classification metrics such as bulding and Background accuracy, Segmentation Accuracy, Dice Coefficient, IoU) on test dataset. 
 
-#### Q.4.Implement U-Net model for the multi-class schematic segmentation of aerial images (Dataset: https://www.kaggle.com/humansintheloop/semantic-segmentation-of-aerial-imagery). Use an Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the model for Focal loss function. For better training performance, you can use batch-normalization and dropout if necessary. 
+##### Q.4.Implement U-Net model for the multi-class schematic segmentation of aerial images (Dataset: https://www.kaggle.com/humansintheloop/semantic-segmentation-of-aerial-imagery). Use an Adam gradient descent algorithm to learn model with parameters for α = 0.01 and random parameters of the model for Focal loss function. For better training performance, you can use batch-normalization and dropout if necessary. 
 - (i)Plot a comparative loss curve for at least 50 epochs. 
 - (ii)Print confusion matrix, calculate overall as well as class-wise classification metrics such as precision, recall, F1-score, IoU, Accuracy on test datset. 
 
-#### Q.5.
+##### Q.5.
 - (a)Write python from scratch for 2D Depthwise Separbale convolution between input image(lena.jpg) and depthwise and pointwise filters are as follows and also compute number of multiplications and parameters required for 2D Depthwise Separbale convolutions depthwise filter array = np.array([[[1, 2, 1], [2, 4, 2], [1, 2, 1]], [[1, 2, 1], [2, 4, 2], [1, 2, 1]], [[1, 2, 1], [2, 4, 2], [1, 2, 1]]])/16 pointwise filter array = np.array([[1], [1], [1]])/512 
 - (b) Write python from scratch for 2D Atrous/Dilated cnvolution between input image(lena.jpg) and filter which is given below with rate 3: filter= np.array([[1, 2, 1],[2, 4, 2], [1, 2, 1]])/16
 
